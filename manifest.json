@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Redirect-New-Tab",
+    "short_name": "Redirect",
+    "description": "Redirect new tab using iFrame",
+    "version": "0.0.2",
+    "chrome_url_overrides": {
+        "newtab": "main.html"
+    },
+    "permissions": ["storage", "chrome://favicon/"],
+    "minimum_chrome_version": "22"
+}
